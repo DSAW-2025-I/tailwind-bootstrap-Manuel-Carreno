@@ -3,18 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Stats preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background-color: hsl(244, 38%, 16%);
+      font-family: 'Inter', sans-serif;
+      text-align: center;
+    }
+
+    a{ 
+      background-color: hwb(277, 32%, 7%);
+      padding: 15px;
+      border-radius: 10px;
+      text-decoration: none;
+      color: white;
+    }
+
+    nav{
+      display: flex;
+      justify-content: center;
+      gap: 300px;
+      width: 100%;
+
+    }
+
+    a:hover{
+      background-color:  hsl(244, 38%, 16%);
+    }
+
+    h1{
+      color: hwb(277 32% 25%);
+      padding: 15px;
+      border-radius: 10px;
+      margin-top: 200px;
+      margin-bottom: 50px;
+    }
+
+
+
   </style>
+
+
 </head>
 <body>
+  <h1>Choose a Framework</h1>
   <nav>
     <a href="./bootstrap.html">Bootstrap</a>
     <a href="./tailwind.html">Tailwind</a>
