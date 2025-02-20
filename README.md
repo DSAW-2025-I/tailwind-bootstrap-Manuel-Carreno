@@ -74,3 +74,6 @@ Once you've added your information to the template, delete this file and rename 
 | Despliegue                  | 1          |
 
 **Have fun building!** 🚀
+
+Made by:
+Manuel Carreño
